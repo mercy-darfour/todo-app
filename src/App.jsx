@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Todo from "./todo";
+import Todo from "./Todo";
 import { db } from "./firebase";
 import {collection,query,onSnapshot,updateDoc,doc, addDoc, deleteDoc} from "firebase/firestore";
 import { motion } from 'motion/react';
